@@ -1,0 +1,153 @@
+body{
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+  color: #333333;
+}
+
+.texto-color1{
+  color: #FF9900;
+}
+
+.texto-color2{
+  color: #333333;
+}
+
+
+.texto-font1{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.texto-font2{
+  font-family: 'Bebas Neue', cursive;
+}
+
+.texto-font3{
+  font-family: 'Barlow Condensed', sans-serif;
+
+}
+
+.fondo-color1{
+  background-color: #FF9900;
+}
+
+.fondo-color2{
+  background-color: #333333;
+}
+
+h3{
+  font-size: 3rem;
+}
+
+h4{
+  font-size: 1.8rem;
+}
+
+.navbar-brand{
+  font-size: 2rem;
+}
+
+.navbar a:link {
+  color: #FF9900 !important;
+}
+.navbar a:visited {
+  color: #FF9900 !important;
+}
+.navbar a:active {
+  color: #FF9900 !important;
+}
+.navbar-brand a:hover {
+  color: #FF9900 !important;
+}
+
+.navbar-nav{
+  font-size: 1.2rem;
+  padding:0.6rem 0 0 0;
+}
+
+.navbar-nav a:link {
+  color: #333333 !important;
+}
+.navbar-nav a:visited {
+  color: #333333 !important;
+}
+.navbar-nav a:active {
+  color: #333333 !important;
+}
+.navbar-nav a:hover {
+  color: #333333 !important;
+}
+
+header{
+  position: relative;
+  width: 100vw;
+}
+
+.textos-header{
+  position: absolute;
+  top: 28%;
+  left: 55%;
+}
+
+.texto-header1{
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin-left: 1.2rem;
+}
+
+.texto-header2{
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 700;
+  font-size: 12rem;
+  margin-top: -3.2rem;
+}
+
+.texto-header3{
+  font-family: 'Bebas Neue', cursive;
+  /* font-family: 'Barlow Condensed', sans-serif; */
+  font-weight: 700;
+  font-size: 7.6rem;
+  margin-top: -4.5rem;
+}
+
+.texto-header {
+  z-index: 2;
+}
+
+.cuadro-tipo1{
+  border: 0.5rem solid #FF9900;
+}
+
+.carousel-indicators{
+    top: calc(100% + 5px);
+}
+
+.carousel-indicators li{
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: #333333;
+}
+
+/* a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+} */
+
+footer {
+  background-color: #333333;
+  color:#ffffff;
+}
+
+footer h2 {
+  font-size: 1.2rem;
+}
