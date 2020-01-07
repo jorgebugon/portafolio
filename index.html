@@ -51,9 +51,9 @@
   </nav>
 
   <!-- header -->
-  <header id="hola" class="row text-left">
+  <header id="hola" class="container-fluid px-0 text-left">
 
-    <img src="assets/img/fondo-header.jpg" id="sobremi" class=" header-imagen img-fluid mx-auto" alt="foto jorge bustos">
+    <img src="assets/img/fondo-header.jpg" id="sobremi" class="img-fluid mx-0" alt="foto jorge bustos">
 
     <div class="textos-header">
       <p class="texto-header1 text-white">SOY</p>
@@ -90,7 +90,7 @@
   </div>
 
   <!-- seccion experiencia -->
-  <section id="experiencia" class="container py-5 my-5 text-center">
+  <section id="experiencia" class="container-fluid py-5 my-5 text-center">
 
     <h3 class="texto-font2 texto-color1">EXPERIENCIA CON CLIENTES</h3>
 
@@ -104,32 +104,89 @@
       <div class="carousel-inner pt-3">
         <div class="carousel-item active">
           <div class="row">
-            <img src="assets/img/cliente-savory.jpg" class="col-2 px-3" data-toggle="tooltip" data-placement="right" data-html="true" title="<b><u>Savory</u></b> <br> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>" alt="logo1">
-            <img src="assets/img/cliente-nescafe.jpg" class="col-2 px-3" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<b><u>Nescafé</u></b> <br> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>" alt="logo1">
-            <img src="assets/img/cliente-bancoestado.jpg" class="col-2 px-3" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<b><u>BancoEstado</u></b> <br> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>" alt="logo1">
-            <img src="assets/img/cliente-duracell.jpg" class="col-2 px-3" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<b><u>Duracell</u></b> <br> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>" alt="logo1">
-            <img src="assets/img/cliente-lacuarta.jpg" class="col-2 px-3" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<b><u>La Cuarta</u></b> <br> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>" alt="logo1">
-            <img src="assets/img/cliente-nova.jpg" class="col-2 px-3" data-toggle="tooltip" data-placement="left" data-html="true" title="<b><u>Nova</u></b> <br> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>" alt="logo1">
+
+            <div class="col-xs-1 col-md-4 col-lg-2" data-toggle="tooltip" data-placement="right" data-html="true" title="<b><u>Savory</u></b> <br> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>">
+              <img src="assets/img/cliente-savory.jpg" class="img-fluid" alt="logo savory">
+            </div>
+
+            <div class="col-xs-1 col-md-4 col-lg-2" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<b><u>Nescafé</u></b> <br> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>">
+              <img src="assets/img/cliente-nescafe.jpg" class="img-fluid" alt="logo nescafe">
+            </div>
+
+            <div class="col-xs-1 col-md-4 col-lg-2" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<b><u>BancoEstado</u></b> <br> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>">
+              <img src="assets/img/cliente-bancoestado.jpg" class="img-fluid" alt="logo bancoestado">
+            </div>
+
+            <div class="col-xs-1 col-md-4 col-lg-2" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<b><u>Duracell</u></b> <br> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>">
+              <img src="assets/img/cliente-duracell.jpg" class="img-fluid" alt="logo duracell">
+            </div>
+
+            <div class="col-xs-1 col-md-4 col-lg-2" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<b><u>La Cuarta</u></b> <br> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>">
+              <img src="assets/img/cliente-lacuarta.jpg" class="img-fluid" alt="logo la cuarta">
+            </div>
+
+            <div class="col-xs-1 col-md-4 col-lg-2" data-toggle="tooltip" data-placement="right" data-html="true" title="<b><u>Nova</u></b> <br> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>">
+              <img src="assets/img/cliente-nova.jpg" class="img-fluid" alt="logo nova">
+            </div>
+
           </div>
         </div>
         <div class="carousel-item">
           <div class="row">
-            <img src="assets/img/cliente-claro.jpg" class="col-2 px-3" data-toggle="tooltip" data-placement="right" data-html="true" title="<b><u>Claro</u></b> <br> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>" alt="logo1">
-            <img src="assets/img/cliente-transbank.jpg" class="col-2 px-3" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<b><u>Transbank</u></b> <br> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>" alt="logo1">
-            <img src="assets/img/cliente-marcopolo.jpg" class="col-2 px-3" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<b><u>Marco Polo</u></b> <br> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>" alt="logo1">
-            <img src="assets/img/cliente-uvm.jpg" class="col-2 px-3" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<b><u>Universidad Viña del Mar</u></b> <br> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>" alt="logo1">
-            <img src="assets/img/cliente-cocacola.jpg" class="col-2 px-3" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<b><u>Coca-Cola</u></b> <br> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>" alt="logo1">
-            <img src="assets/img/cliente-sernatur.jpg" class="col-2 px-3" data-toggle="tooltip" data-placement="left" data-html="true" title="<b><u>Sernatur</u></b> <br> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>" alt="logo1">
+
+            <div class="col-xs-1 col-md-4 col-lg-2" data-toggle="tooltip" data-placement="right" data-html="true" title="<b><u>Claro</u></b> <br> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>">
+              <img src="assets/img/cliente-claro.jpg" class="img-fluid" alt="logo claro">
+            </div>
+
+            <div class="col-xs-1 col-md-4 col-lg-2" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<b><u>Transbank</u></b> <br> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>">
+              <img src="assets/img/cliente-transbank.jpg" class="img-fluid" alt="logo transbank">
+            </div>
+
+            <div class="col-xs-1 col-md-4 col-lg-2" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<b><u>Marco Polo</u></b> <br> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>">
+              <img src="assets/img/cliente-marcopolo.jpg" class="img-fluid" alt="logo marco polo">
+            </div>
+
+            <div class="col-xs-1 col-md-4 col-lg-2" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<b><u>Universidad Viña del Mar</u></b> <br> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>">
+              <img src="assets/img/cliente-uvm.jpg" class="img-fluid" alt="logo uvm">
+            </div>
+
+            <div class="col-xs-1 col-md-4 col-lg-2" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<b><u>Coca-Cola</u></b> <br> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>">
+              <img src="assets/img/cliente-cocacola.jpg" class="img-fluid" alt="logo coca cola">
+            </div>
+
+            <div class="col-xs-1 col-md-4 col-lg-2" data-toggle="tooltip" data-placement="right" data-html="true" title="<b><u>Sernatur</u></b> <br> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>">
+              <img src="assets/img/cliente-sernatur.jpg" class="img-fluid" alt="logo sernatur">
+
+            </div>
           </div>
         </div>
         <div class="carousel-item">
           <div class="row">
-            <img src="assets/img/cliente-uautonoma.jpg" class="col-2 px-3" data-toggle="tooltip" data-placement="right" data-html="true" title="<b><u>Universidad Autónoma</u></b> <br> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>" alt="logo1">
-            <img src="assets/img/cliente-vidasecurity.jpg" class="col-2 px-3" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<b><u>Vida Security</u></b> <br> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>" alt="logo1">
-            <img src="assets/img/cliente-ambrosoli.jpg" class="col-2 px-3" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<b><u>Ambrosoli</u></b> <br> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>" alt="logo1">
-            <img src="assets/img/cliente-latercera.jpg" class="col-2 px-3" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<b><u>La Tercera</u></b> <br> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>" alt="logo1">
-            <img src="assets/img/cliente-evercrisp.jpg" class="col-2 px-3" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<b><u>Evercrisp</u></b> <br> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>" alt="logo1">
-            <img src="assets/img/cliente-mega.jpg" class="col-2 px-3" data-toggle="tooltip" data-placement="left" data-html="true" title="<b><u>Mega</u></b> <br> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>" alt="logo1">
+
+            <div class="col-xs-1 col-md-4 col-lg-2" data-toggle="tooltip" data-placement="right" data-html="true" title="<b><u>Universidad Autónoma</u></b> <br> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>">
+              <img src="assets/img/cliente-uautonoma.jpg" class="img-fluid" alt="logo u autonoma">
+            </div>
+
+            <div class="col-xs-1 col-md-4 col-lg-2" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<b><u>Vida Security</u></b> <br> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>">
+              <img src="assets/img/cliente-vidasecurity.jpg" class="img-fluid" alt="logo vida security">
+            </div>
+
+            <div class="col-xs-1 col-md-4 col-lg-2" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<b><u>Ambrosoli</u></b> <br> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>">
+              <img src="assets/img/cliente-ambrosoli.jpg" class="img-fluid" alt="logo ambrosoli">
+            </div>
+
+            <div class="col-xs-1 col-md-4 col-lg-2" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<b><u>La Tercera</u></b> <br> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>">
+              <img src="assets/img/cliente-latercera.jpg" class="img-fluid" alt="logo la tercera">
+            </div>
+
+            <div class="col-xs-1 col-md-4 col-lg-2" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<b><u>Evercrisp</u></b> <br> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>">
+              <img src="assets/img/cliente-evercrisp.jpg" class="img-fluid" alt="logo evercrisp">
+            </div>
+
+            <div class="col-xs-1 col-md-4 col-lg-2" data-toggle="tooltip" data-placement="right" data-html="true" title="<b><u>Mega</u></b> <br> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>">
+              <img src="assets/img/cliente-mega.jpg" class="img-fluid" alt="logo mega">
+            </div>
+
           </div>
         </div>
       </div>
